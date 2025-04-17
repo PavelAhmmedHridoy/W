@@ -1,0 +1,23 @@
+
+:root {
+  --background-1: #0E1525;
+  --background-2: #1C2333;
+  --foreground-1: #f5f9f5;
+  --accent-1: #0053A6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-1);
+  color: var(--foreground-1);
+  font-family: sans-serif;
+}
+
+#root {
+  height: 100vh;
+}
